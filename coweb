@@ -1,0 +1,29 @@
+border_inner_margin 0
+border_outer_margin 0
+border_width 0
+draw_borders no
+draw_graph_borders no
+
+double_buffer yes
+format_human_readable yes
+
+gap_x 33
+gap_y 30
+maximum_width 1300
+minimum_size 1300 700
+
+own_window yes
+own_window_type normal
+own_window_hints below, sticky, undecorated, skip_pager, skip_taskbar
+
+own_window_transparent yes
+own_window_argb_visual yes
+own_window_argb_value 0
+pad_percents 3
+update_interval 2
+
+lua_load web.lua
+lua_draw_hook_pre main
+lua_startup_hook startup
+
+TEXT
